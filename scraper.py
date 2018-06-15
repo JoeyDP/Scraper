@@ -8,11 +8,11 @@ import requests
 from tqdm import tqdm
 from requests.auth import HTTPBasicAuth
 
+from credentials import USERNAME, PASSWORD
+
 bacli.setDescription("Simple Github Scraper")
 
 
-USERNAME = ""
-PASSWORD = ""
 
 REPO_SEARCH_URL = "http://api.github.com/search/repositories"
 CODE_SEARCH_URL = "http://api.github.com/search/code"

@@ -103,7 +103,7 @@ venv.bak/
 # Jetbrains Pycharm
 .idea/
 
-
+output/
 
 # mypy
 .mypy_cache/
